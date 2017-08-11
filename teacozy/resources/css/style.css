@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  z-index: 20;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+nav a {
+  color: seashell;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+#logo {
+  margin-left: 10px;
+  height: 50px;
+}
+
+.content {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  z-index: 10;
+  margin-top: 70px;
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    margin: auto;
+    background-image: url("../images/img-mission-background.jpg");
+}
+
+.missionbanner {
+  background-color: black;
+  width: 100%;
+}
+
+h2,
+h4 {
+  margin: 11px;
+}
+
+.featuredtea {
+  width: 1050px;
+  margin: auto;
+  padding-top: 80px;
+  margin-bottom: 60px;
+}
+
+.tealineup {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.teablock {
+  margin-right: 25px;
+}
+
+.teablock img {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.teablock h4 {
+  margin-top: 10px;
+  margin-bottom: 12px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.locations h2 {
+  margin-top: 60px;
+  margin-bottom: 10px;
+}
+
+.listlocations {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.loc_name_address {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 20px;
+}
+
+.loc_name_address h4 {
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contactinfo{
+  height: 200px;
+  margin: auto;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
